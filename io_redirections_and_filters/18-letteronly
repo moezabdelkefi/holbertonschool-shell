@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -v '^[[:alpha:]]' /etc/ssh/sshd_config
+awk '$0 !~ /^[a-zA-Z]/{print $0}' /etc/ssh/sshd_config
