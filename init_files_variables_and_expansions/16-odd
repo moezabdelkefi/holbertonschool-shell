@@ -1,2 +1,2 @@
 #!/bin/bashi
-past - - | cut -f1
+paste - - | cut -f1
